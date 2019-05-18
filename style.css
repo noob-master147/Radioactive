@@ -16,9 +16,24 @@
 	background-color: rgba(0,0,0,0.5);
 }
 
-.logo{
+#logo{
 	max-width: 50px;
 	height: auto;
 	float: left;
+	padding-left: 20px;
+	padding-top: 20px; 
 	
+}
+
+.radon h3{
+	padding-top: 60px
+	color: white;
+}
+
+.navigation{
+	width: 75%;
+	padding-left: 70px;
+	font-weight: bold;
+	float: right;
+
 }

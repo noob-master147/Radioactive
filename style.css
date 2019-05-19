@@ -17,41 +17,42 @@
 }
 
 #logo{
-	max-width: 50px;
+	max-width: 80px;
 	height: auto;
 	float: left;
 	padding-left: 20px;
-	padding-top: 20px; 
+	
 	
 }
 
-.radon h3{
-	margin-top: 60px
+#radon {
+	width: 30%;
+	padding-left: 30px;
+	padding-top: 35px;
+	float: left;
+	font-family: 'Montserrat',sans-serif;
 	color: white;
+	font-size: 22px;
 }
 
 .navigation{
-	width: 75%;
-	padding-left: 200px;
-	font-weight: bold;
+	width: 50%;
+	padding-left: 50px;
 	float: right;
-
+	padding-top: 20px;
 }
-<<<<<<< HEAD
-
-/*    https://www.youtube.com/watch?v=n8lXLWi0oNc&feature=youtu.be    */
-=======
 .navigation ul li{
 	font-family: 'Montserrat',sans-serif;
 	list-style: none;
 	display: inline-block;
 	list-style: none;
 	font-size: 15px;
-	color: black;
+	color: white;
 	font-weight: bold;
 	line-height: 40px;
 	margin-left: 40px;
 	text-transform: uppercase;
+	padding-left: 20px;
 	
 }
 .navigation li:hover{
@@ -120,7 +121,7 @@
 }
 @keyframes colorchangethapa{
 	0%{color:red;}
-	25%{color: purple;}
+	25%{color: tomato;}
 	50%{color:pink;}
 	100%{color:green;}
 }

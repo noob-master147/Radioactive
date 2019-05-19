@@ -26,16 +26,137 @@
 }
 
 .radon h3{
-	padding-top: 60px
+	margin-top: 60px
 	color: white;
 }
 
 .navigation{
 	width: 75%;
-	padding-left: 70px;
+	padding-left: 200px;
 	font-weight: bold;
 	float: right;
 
 }
+<<<<<<< HEAD
 
 /*    https://www.youtube.com/watch?v=n8lXLWi0oNc&feature=youtu.be    */
+=======
+.navigation ul li{
+	font-family: 'Montserrat',sans-serif;
+	list-style: none;
+	display: inline-block;
+	list-style: none;
+	font-size: 15px;
+	color: black;
+	font-weight: bold;
+	line-height: 40px;
+	margin-left: 40px;
+	text-transform: uppercase;
+	
+}
+.navigation li:hover{
+	color: orange;
+	font-weight: bold;
+}
+.text{
+
+	width: 100%;
+	margin-top: 105px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.text h4{
+	font-size: 20px;
+	font-family: 'open sans',sans-serif;
+	color: white;
+	}
+.text h2{
+	font-size: 50px;
+	font-family: 'Maiden Orange', cursive;
+	color: white;
+	line-height: 80px;
+}
+.text h3{
+	font-size: 15px;
+	fond-family:'Open sans ',sans-serif;
+	color: white;
+}
+#b1{
+	background-color: white;
+	border-radius: 200px;
+	font-size: 12px;
+	font-family: 'Monstserrat',sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 40px;
+    margin-top: 25px;
+    border: 3px solid white;
+    width: 150px;
+
+	
+}
+
+#b1:hover{
+	background-color: pink;
+}
+#b2:hover{
+	background-color: pink;
+}
+#b2{
+	background-color: white;
+	border: 2px solid purple;
+	color: black;
+	border-radius:200px; 
+	font-family: 'Montserrat',sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 40px;
+    border: 3px solid white;
+    width: 150px;
+}
+.colorchange{
+	animation: colorchangethapa 1s infinite;
+
+}
+@keyframes colorchangethapa{
+	0%{color:red;}
+	25%{color: purple;}
+	50%{color:pink;}
+	100%{color:green;}
+}
+.mobile-icon{
+	display: none;
+}
+
+@media on screen and (max-width: :1180px){
+	.main-content-header{
+		width: 100%;
+		padding: 0px 20px;
+	}
+}
+@media on screen and (max-width: :998px){
+	.h1{
+		font-size: 200%;
+	}
+@media on screen and (max-width: :768px){
+		h1{
+			font-size: 100%;
+			.main-nav{
+				display: none;
+			}
+			.mobile-icon{
+				display: inline-block;
+				color: white;
+				float: right;
+				margin-right: 20px;
+				margin-top: 30px;
+			}
+			.main-nav li{
+				float: left;
+				display: block;
+				margin-top: 10px;
+			}
+}
+	
+
+>>>>>>> a68cd1e79212a5eeb8d488fb03419d2a6f04ec96

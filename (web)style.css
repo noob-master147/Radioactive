@@ -1,0 +1,107 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+.bgimage{
+	background-image: url('photo.jpg.jpg');
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100%;
+}
+.menu{
+	width: 100%;
+	height :80px;
+	background-color: rgba(0,0,0,0.5);
+}
+.leftmenu{
+	width: 25%;
+	line-height: 80px;
+	float: left;
+}
+.leftmenu h4{
+	padding-left: 70px;
+	font-size: bold;
+	color: white;
+	font-size: 22px;
+	font-family: 'Montserrat',sans-serif;
+}
+.rightmenu{
+	width: 75%;
+	height: 100%;
+	float: right;
+	
+}
+
+.rightmenu ul{
+	margin-left: 200px;
+}
+.rightmenu ul li{
+	font-family: 'Montserrat',sans-serif;
+	list-style: none;
+	display: inline-block;
+	list-style: none;
+	font-size: 15px;
+	color: orange;
+	font-weight: bold;
+	line-height: 100px;
+	margin-left: 40px;
+	text-transform: uppercase;
+
+}
+#firstlist{
+	color: orange;
+}
+.rightmenu ul li:hover{
+	color: orange;
+}
+.text{
+	width: 100%;
+	margin-top: 105px;
+	text-transform: uppercase;
+	text-align: center;
+	
+
+}
+.text h4{
+	font-size: 20px;
+	font-family: 'open sans',sans-serif;
+	color: black;
+
+}
+.text h1{
+	font-size: 52px;
+	font-family: 'Montserrat',sans-serif;
+    font-weight: 700px;
+    margin: 14px 0px;
+    color: black;
+
+
+}
+.text h3{
+	font-size: 15px;
+	fond-family:'Open sans ',sans-serif;
+	color: white;
+}
+#buttonone{
+	background-color: white;
+	border: none;
+    font-size: 12px;
+    font-family: 'Montserrat',sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 40px;
+    margin-top: 25px;
+    border: 3px solid white;
+    width: 150px;
+}
+#buttontwo{
+	background-color: transparent;
+	border: nonel
+	font-family: 'Montserrat',sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 40px;
+    border: 3px solid white;
+    width: 150px;
+}

@@ -21,7 +21,8 @@
 </script>
 <meta name = "viewport" content="width=device-width, initial-scale=1">
 </head>
-<body>
+<body  data-spy="scroll" data-responsive="#navbarResposive">
+<div id="home">
 
 	<div class="bgimg">
 		
@@ -37,27 +38,28 @@
 
 				</button>	
 
-				<div class="collapse navbar-collapse text-center" id="collapsenavbar">
+
+				<div class="collapse navbar-collapse text-center" id="collapseResponsive">
 					
 					<ul class="navbar-nav ml-auto ">
 						<li class="nav-item">
-							<a href="" class="nav-link text-white">SERVICES</a>
+							<a href="#home" class="nav-link text-white">SERVICES</a>
 						</li>
 
 						<li class="nav-item">
-							<a href="" class="nav-link text-white">PORTFOLIO</a>
+							<a href="#PORTFOLIO" class="nav-link text-white">PORTFOLIO</a>
 						</li>
 						
 						<li class="nav-item">
-							<a href="" class="nav-link text-white">ABOUT</a>
+							<a href="#ABOUT" class="nav-link text-white">ABOUT</a>
 						</li>
 						
 						<li class="nav-item">
-							<a href="" class="nav-link text-white">TEAM</a>
+							<a href="#TEAM" class="nav-link text-white">TEAM</a>
 						</li>
 						
 						<li class="nav-item">
-							<a href="" class="nav-link text-white">CONTACT US</a>
+							<a href="#CONTACT US" class="nav-link text-white">CONTACT US</a>
 						</li>
 						
 					</ul>
@@ -72,7 +74,7 @@
 		<div class="container text-center text-white headerset">
 			<h2>Welcome to our Studio !</h2>
 			<h1>IT'S NICE TO MEET YOU</h1>
-			<button class="btn btn-warning text-black btn-large">SUBSCRIBE</button>
+			<button class="btn btn-warning text-black btn-large " href="#SERVICES" >Get Started</button>
 		</div>
 
 
@@ -92,23 +94,81 @@
 			</div>
 
 			<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
-				<div class="imgsetting d-block m-auto"> <i class="fa fa-object-group fa-3x"></i> </div>
+				<div class="imgsetting d-block m-auto"> <i class="fa fa-shopping-cart fa-3x"></i> </div>
 
-				<h2>Responsive Design</h2>
-				<p>alpha beta gamma</p>
+				<h2>Responsive-Design</h2>
+				<p>We provide best design in the world.</p>
 
 			</div>
 
 			<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
-				<div class="imgsetting d-block m-auto"> <i class="fa fa-user-secret fa-3x"></i> </div>
+				<div class="imgsetting d-block m-auto"> <i class="fa fa-shopping-cart fa-3x"></i> </div>
 
-				<h2>Web Security</h2>
-				<p>alpha beta gamma</p>
+				<h2>Web-Development</h2>
+				<p>We build complete website from scratch.</p>
 
 			</div>
 		</div>
 	</section>
+<section class="PORTFOLIO jumbotron">
+	<div class="container text-center">
+		<h2> PORTFOLIO</h2>
+		<p>THE BEST DESIGNS</p>
+		<div class="row rowsetting">
+			<div class="card-group">
+			<div class="col-lg-4 col-md-4 col-10 d-block m-auto">
+			
+				<img src="simple.jpg" class="card-img img-fluid">
+					<h2 class="card-title">website1</h2>
+					<p class="card-text">Simple Website </p>
 
+			
+		</div>
+		
+		<div class="col-lg-4 col-md-4 col-10 d-block m-auto">
+			
+				<img src="game.jpg" class="card-img img-fluid">
+					<h2 class="card-title">website2</h2>
+					<p class="card-text">Gaming Website </p>
+					
+			
+		</div>
+		<div class="col-lg-4 col-md-4 col-10 d-block m-auto">
+			
+				<img src="edu.jpg" class="card-img img-fluid">
+					<h2 class="card-title">website3</h2>
+					<p class="card-text">Classic Website </p>
+					
+			</div>
+		</div>
+		
+
+</div>
+</section>
+<section class="ourteam">
+	<div class="container text-center ">
+		<h2>OUR AMAZING TEAM</h2>
+		
+		<div class="row">
+		    <div class="col-lg-4 col-md-4 col-sm-10 col-12 d-block m-auto">
+			    <figure class="figure">
+				<img src="sejal.jpg" class="figure-img img-fluid rounded-circle" height="250px" width="250px">
+				<figcaption>
+					<h4> Sejal Maniyar</h4>
+					<p class="figure-caption">FrontEnd Designer</p>
+				</figcaption>	
+			</figure>
+		<div class="col-lg-4 col-md-4 col-sm-10 col-12 d-block m-auto">
+			    <figure class="figure">
+				<img src="" class="figure-img img-fluid rounded-circle" height="250px" width="250px">
+				<figcaption>
+					<h4> Divyansh Khandelwal</h4>
+					<p class="figure-caption">FrontEnd Designer</p>
+				</figcaption>	
+			</figure>
+
+	
+</section>
 
 </body>
 </html>

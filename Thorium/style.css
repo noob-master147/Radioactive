@@ -39,3 +39,19 @@
 .rowsetting{
 	margin: 80px 0px;
 }
+footer{
+	padding: 50px;
+	margin-top: 20px;
+	height: 50px;
+	font-size: 20px;
+	text-align: center;
+}
+footer p{
+	font-weight: bold;
+	font-size: 25px;
+	text-align: center;
+}
+
+hr.socket{
+	text-align: center;
+}

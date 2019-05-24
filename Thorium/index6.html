@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Concert</title>
+	<link rel="stylesheet" type="text/css" href="style6.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<section>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+	<div class="bgimg">
+		
+		<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+			<div class="container">
+				<a href="" class="navbar-brand text-warning font-weight-bold"> #TECHNICAL</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenavbar">
+					<span class="navbar-togglericon">
+					</span>
+				</button>	
+				<div class="collapse navbar-collapse text-center" id="collapsenavbar">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a href="#HOME" class="nav-link text-white">HOME</a>
+						</li>
+						<li class="nav-item">
+							<a href="#PHOTOS" class="nav-link text-white">PHOTOS</a>
+						</li>
+						<li class="nav-item">
+							<a href="#SEARCH" class="nav-link text-white">SEARCH</a>
+						</li>
+						<li class="nav-item">
+							<a href="#ABOUT" class="nav-link text-white">ABOUT</a>
+					    </li>
+						<li class="nav-item">
+							<a href="#CONTACT" class="nav-link text-white">CONTACT</a>
+						</li>
+					</ul>
+					
+				</div>
+		</nav>
+		<div class="container text-center text-white headerset" id="#HOME">
+			<h2>Welcome to Your Concert!</h2>
+			
+			<h1>IT'S Gonna Be Fun....</h1>
+			<br>
+			
+			<button class="btn btn-warning text-black btn-large " href="#SEARCH" >Get Started</button>
+			<br>
+			<br>
+			<br>
+		</div>
+	</section>
+	<br>
+		<section class="PHOTOS" id="#PHOTOS">
+			<h3 class="heading text-center heading-underline">Photos</h3>
+			<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="c1.jpg" alt="Los Angeles" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="c2.jpg" alt="Chicago" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="c3.jpg" alt="New York" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="c4.jpg" alt="New York" width="1100" height="500">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+			
+
+</section>
+<section>
+	<h2 class="heading heading-underline text-center SEARCH" id="#SEARCH"></h2>
+	<br>
+	<br>
+	<div class="container mt-3">
+  <p>Search your favourite Band</p>  
+  <input class="form-control" id="myInput" type="text" placeholder="Search..">
+  <br>
+  <ul class="list-group" id="myList">
+    <li class="list-group-item">The Local Train</li>
+    <li class="list-group-item">Justin Bieber</li>
+    <li class="list-group-item">Marshmello</li>
+    <li class="list-group-item">Skyfall</li>
+    <li class="list-group-item">AC/DC</li>
+    <li class="list-group-item">Coldplay</li>
+    <li class="list-group-item">The Beatles</li>
+  </ul>  
+</div>
+
+<script>
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myList li").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
+<br>
+<br>
+</section>
+<section class="container-fluid ABOUT text-center">
+	<div class="jumbotron">
+		<h1>About Us</h1>
+		<p>Choose one of favourite Concert</p>
+		<br>
+
+		<div class="row rowsetting">
+			<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+				<div class="imgsetting d-block m-auto"> <i class="fas fa-music fa-3x"></i></i> </div>
+
+				<h2>Track your favourite artists</h2>
+				<p>Tell us who you want to see live.</p>
+
+			</div>
+
+			<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+				<div class="imgsetting d-block m-auto"> <i class="fas fa-calendar-alt fa-3x"></i> </div>
+
+				<h2>Get concert alerts</h2>
+				<p>See which of your favourite artists are playing nearby,and explore.</p>
+
+			</div>
+
+			<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+				<div class="imgsetting d-block m-auto"> <i class="fa fa-shopping-cart fa-3x"></i> </div>
+
+				<h2>Never miss out on tickets</h2>
+				<p>Get instant concert alerts when your favorite artists announce shows in your area.</p>
+
+			</div>
+		</div>
+	</div>
+	</section>
+	<section>
+		<br>
+		<br>
+         <footer class="footer text-warning footer-expand-md bg-dark footer-dark CONTACT">
+		
+			<div class="col-md-8 text-center container-fluid">
+				<img src="">
+				<p>Book Tickets Now</p>
+				<strong>Contact Info</strong>
+				<p>(+91) 88888 88888<br>email@concert.com</p>
+				
+				<a href="" target="_blank"><i class="fab fa-facebook-square"></i></a>
+				<a href="" target="_blank"><i class="fab fa-twitter-square"></i></a>
+				<a href="" target="_blank"><i class="fab fa-instagram-square"></i></a>
+			</div>
+			<hr class="socket text-center">
+			&copy;concert theme.
+
+		</footer>
+		</section>
+
+</body>
+</html>

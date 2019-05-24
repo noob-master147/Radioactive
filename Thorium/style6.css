@@ -1,0 +1,40 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    line-height: 50%;
+}
+.bgimg{
+	background-image: url('concert.jpg');
+	background-size: 100% 100%;
+	
+	width: 100%;
+	height:100%;
+
+}
+.headerset{
+	
+	box-sizing: border-box;
+	padding-top: 200px;
+}
+.headerset h2{
+	font-size: 42px;
+	
+}
+.headerset h1{
+	font-size: 62px;
+	font-weight: bold;
+	color: #e68a00;
+
+}
+hr.socket{
+	text-align: center;
+  }
+.footer{
+	text-align: center;
+	font-weight: bold;
+
+}

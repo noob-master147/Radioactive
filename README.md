@@ -6,6 +6,6 @@
 
 Pull Requests are Welcomed :) 
 
-Please read the CONTRIBUTION.md before contributing.   
+Please read the [CONTRIBUTION.md](https://github.com/noob-master147/Radioactive/blob/master/CONTRIBUTION.md) before contributing.   
 
 Happy OpenSourcing   :) 

@@ -87,7 +87,8 @@ hr.socket{
 }
 
 @media(max-width: 479px){
-	.headerset h2{
+
+.headerset h2{
 	font-size: 22px;
 	font-weight: bold;
 }

@@ -9,20 +9,20 @@
 }
 .bgimg{
 	background-image: url('concert.jpg');
-	background-size: 100% 100%;
-	
+	background-size: cover;
+
 	width: 100%;
 	height:100%;
 
 }
 .headerset{
-	
+
 	box-sizing: border-box;
 	padding-top: 200px;
 }
 .headerset h2{
 	font-size: 42px;
-	
+
 }
 .headerset h1{
 	font-size: 62px;

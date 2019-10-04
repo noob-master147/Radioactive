@@ -25,7 +25,7 @@
 					<span class="navbar-togglericon">
 					</span>
 				</button>	
-				<div class="collapse navbar-collapse text-center" id="collapsenavbar">
+				<div class="collapse navbar-collapse text-center " id="collapsenavbar">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item">
 							<a href="#HOME" class="nav-link text-white">HOME</a>
@@ -71,7 +71,8 @@
   </ul>
   
   <!-- The slideshow -->
-  <div class="carousel-inner">
+  <div style="padding-left: 100px; padding-right: 100px">
+  	<div class="carousel-inner " >
     <div class="carousel-item active">
       <img src="c1.jpg" alt="Los Angeles" width="1100" height="500">
     </div>
@@ -85,6 +86,8 @@
       <img src="c4.jpg" alt="New York" width="1100" height="500">
     </div>
   </div>
+  </div>
+  
   
   <!-- Left and right controls -->
   <a class="carousel-control-prev" href="#demo" data-slide="prev">
@@ -137,13 +140,58 @@ $(document).ready(function(){
 		<h1>About Us</h1>
 		<p>Choose one of favourite Concert</p>
 		<br>
-
-		<div class="row rowsetting">
+<div id="a" style="display: block">
+		<div class="row" >
 			<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
 				<div class="imgsetting d-block m-auto"> <i class="fas fa-music fa-3x"></i></i> </div>
+				
+
+			</div>
+
+			<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+				<div class="imgsetting d-block m-auto"> <i class="fas fa-calendar-alt fa-3x"></i> </div>
+
+				
+			</div>
+
+			<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+				<div class="imgsetting d-block m-auto"> <i class="fa fa-shopping-cart fa-3x"></i> </div>
+
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+				
 
 				<h2>Track your favourite artists</h2>
 				<p>Tell us who you want to see live.</p>
+
+			</div>
+
+			<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+				
+
+				<h2>Get concert alerts</h2>
+				<p>See which of your favourite artists are playing nearby,and explore.</p>
+
+			</div>
+
+			<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+				
+
+				<h2>Never miss out on tickets</h2>
+				<p>Get instant concert alerts when your favorite artists announce shows in your area.</p>
+
+			</div>
+		</div>
+	</div>
+<div id="b" style="display: none">
+		<div class="row" >
+			<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+				<div class="imgsetting d-block m-auto"> <i class="fas fa-music fa-3x"></i></i> </div>
+				<h2>Track your favourite artists</h2>
+				<p>Tell us who you want to see live.</p>
+
 
 			</div>
 
@@ -152,19 +200,20 @@ $(document).ready(function(){
 
 				<h2>Get concert alerts</h2>
 				<p>See which of your favourite artists are playing nearby,and explore.</p>
-
+				
 			</div>
 
 			<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
 				<div class="imgsetting d-block m-auto"> <i class="fa fa-shopping-cart fa-3x"></i> </div>
-
 				<h2>Never miss out on tickets</h2>
 				<p>Get instant concert alerts when your favorite artists announce shows in your area.</p>
 
 			</div>
 		</div>
 	</div>
-	</section>
+
+	</div>
+</section>
 	<section>
 		<br>
 		<br>
@@ -185,6 +234,15 @@ $(document).ready(function(){
 
 		</footer>
 		</section>
+<script type="text/javascript">
+	
+	var a=document.getElementById('a');
+	var b=document.getElementById('b');
+	if(screen.width<576){
+		a.style.display="none";
+    	b.style.display="block";
+	}
+</script>
 
 </body>
 </html>
